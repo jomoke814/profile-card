@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,4 +11,96 @@
     --main-heading-color: hsl(229, 23%, 23%);
     --main-text-color: hsl(227, 10%, 46%);
     --main-description-color:hsl(0, 0%, 59%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    max-height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 30px;
+}
+
+h1, h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-heading-color);
+}
+
+p {
+    font-weight: 400;
+    color: var(--main-description-color);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: -50px;
+}
+
+.vict-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.upper {
+    height: 150px;
+    background: url('../images/bg-pattern-card.svg');
+    background-size: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.age {
+    font-weight: 400;
+    color: var(--main-text-color);
+    padding-left: 10px;
+}
+
+hr {
+    border: none;
+    background: var(--main-description-color);
+    height: 1px;
+    margin: 20px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+
 }
