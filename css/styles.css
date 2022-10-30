@@ -105,5 +105,10 @@ hr {
     justify-content: center;
     gap: 50px;
     padding: 15px;
+}
 
+.attribution {
+    color: hsl(288, 45%, 44%);
+    font-size: 11px;
+    text-align: center;
 }
