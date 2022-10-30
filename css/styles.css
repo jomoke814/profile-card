@@ -58,7 +58,6 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #fff;
-    border: 1px solid;
     border-radius: 10px;
     text-align: center;
     margin: 50px;
